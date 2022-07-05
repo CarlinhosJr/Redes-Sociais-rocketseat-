@@ -33,7 +33,7 @@ img.avatar{
     width: 100px;
     height: 100px;
     padding: 4px;
-    border: 3px solid #0e142b;
+    border: 3px solid #000000;
 }
 
 h1{
@@ -55,14 +55,14 @@ ul li a{
     justify-content: center;
     margin-bottom: 16px;
     border-radius: 10px;
-    background: #4263eb;
+    background: #1e494e;
     color: white;
     text-transform: uppercase;
     font-size: 14px;
 }
 
 ul li a:hover{
-    background: #364fc7;
+    background: #132e30;
     transition: background 400ms;
 }
 
