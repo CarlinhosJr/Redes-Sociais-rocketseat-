@@ -4,13 +4,19 @@
     box-sizing: border-box; /* conta a partir da borda */
 }
 
-a{
-    text-decoration: none;
+html{
+    --bg-color: #edf2ff;
+    --text-color: #000000;
 }
 
 body{
-    background: #edf2ff;
+    background: var(--bg-color);
     font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    
 }
 
  ul{
@@ -19,7 +25,7 @@ body{
  }
 
 .container{
-    text-align: center;
+    text-align:center;
     width: 300px;
     margin: 60px auto;
 }
@@ -65,6 +71,7 @@ ul li a:hover{
     background: #132e30;
     transition: background 400ms;
 }
+
 
 footer{
     font-size: 16px;
