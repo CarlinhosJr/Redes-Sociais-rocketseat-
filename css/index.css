@@ -11,6 +11,7 @@ html{
 
 body{
     background: linear-gradient(180deg,#5ca3c4, #5d476b) no-repeat;
+    background-attachment: fixed;
     font-family: 'Roboto', sans-serif;
 }
 
