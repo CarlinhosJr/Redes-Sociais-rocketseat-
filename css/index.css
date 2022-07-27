@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* conta a partir da borda */
+    box-sizing: border-box; 
 }
 
 html{
@@ -35,7 +35,7 @@ img.avatar{
     border-radius: 50%;
     width: 140px; 
     height: 140px;
-    border: 2px solid #2c2b2bb0;
+    border: 2px solid #000000b0;
 }
 
 h1{
@@ -66,8 +66,9 @@ ul li a{
 }
 
 ul li a:hover{
-    background: #183569;
-    transition: background 400ms;
+    background: #ffffff; /*#183569*/
+    transition: background 800ms;
+    color:#183569;
 }
 
 .social-media-link{
@@ -76,7 +77,7 @@ ul li a:hover{
 
 .social-media-name{
     width: 80%;
-    margin-left: 20%;
+    margin-right: 15%;
 }
 
 .social-media-icon{
